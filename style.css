@@ -25,25 +25,29 @@
 
 @media screen and (max-width: 420px){
 
+  .row {
+    width: auto;
+  }
+
   h1 {
-    font-size: 70px;
+    font-size: 40px;
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     float: none;
     width: 100%;
-    font-size: 35px;
+    font-size: 20px;
   }
 
   #lezioni .row>.left h3,
   #lezioni .row>.right h3 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   #lezioni .row>.left img,
   #lezioni .row>.right img {
-    height: 180px;
+    height: 120px;
   }
 
   #lezioni .row>.right {
@@ -71,15 +75,15 @@
     float: none;
     width: 100%;
     padding-top: 70px;
-    font-size: 35px;
+    font-size: 20px;
   }
 
   #steps .row h3 {
-    font-size: 55px;
+    font-size: 30px;
   }
 
   #steps .row img {
-    height: 180px;
+    height: 120px;
   }
 }
 /* BLOCCO PERCHE */
@@ -103,20 +107,20 @@
    #why .row>.first h3,
    #why .row>.second h3,
    #why .row>.third h3 {
-     font-size: 50px;
+     font-size: 30px;
    }
 
    #why .row img {
      background-color: #428bca;
      border-radius: 50%;
      padding: 30px;
-     height: 180px;
+     height: 120px;
    }
 
    #why .row>.first,
    #why .row>.second,
    #why .row>.third {
-     font-size: 35px;
+     font-size: 20px;
    }
 
  }
