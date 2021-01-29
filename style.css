@@ -24,7 +24,7 @@
 }
 
 @media screen and (max-width: 420px){
-  
+
   h1 {
     font-size: 50px;
   }
@@ -50,7 +50,6 @@
     padding-top: 35px;
   }
 
-
 }
 /* BLOCCO STEPS */
 #steps .row>.left,
@@ -64,6 +63,25 @@
   text-align: center;
 }
 
+@media screen and (max-width: 420px) {
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    padding-top: 35px;
+    font-size: 27px;
+  }
+
+  #steps .row h3 {
+    font-size: 35px;
+  }
+
+  #steps .row img {
+    height: 150px;
+  }
+}
 /* BLOCCO PERCHE */
 #why {
   text-align: center;
